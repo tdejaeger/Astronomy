@@ -1,0 +1,42 @@
+SN: sn2016hnk
+Filter: c
+Npoints:            39
+MJD       Mag    DMag  magsys  Telescope  Detector   Source
+57601.59496	20.58	0.67    -- ATLAS -- 2016hnkpaper
+57601.63112	19.48	0.73    -- ATLAS -- 2016hnkpaper
+57602.58486	19.94	0.42    -- ATLAS -- 2016hnkpaper
+57602.63136	19.11	0.56    -- ATLAS -- 2016hnkpaper
+57603.58365	20.28	0.53    -- ATLAS -- 2016hnkpaper
+57603.60641	20.29	0.54    -- ATLAS -- 2016hnkpaper
+57603.62921	19.27	0.46    -- ATLAS -- 2016hnkpaper
+57663.57657	19.55	0.47    -- ATLAS -- 2016hnkpaper
+57667.57639	20.61	0.65    -- ATLAS -- 2016hnkpaper
+57688.47428	17.69	0.07    -- ATLAS -- 2016hnkpaper
+57688.49255	17.91	0.07    -- ATLAS -- 2016hnkpaper
+57688.50663	17.77	0.07    -- ATLAS -- 2016hnkpaper
+57688.52335	17.68	0.07    -- ATLAS -- 2016hnkpaper
+57688.5426	17.81	0.08    -- ATLAS -- 2016hnkpaper
+57696.44812	17.83	0.07    -- ATLAS -- 2016hnkpaper
+57696.46354	17.7	0.06    -- ATLAS -- 2016hnkpaper
+57696.48227	17.65	0.06    -- ATLAS -- 2016hnkpaper
+57696.48948	17.82	0.07    -- ATLAS -- 2016hnkpaper
+57696.50927	17.83	0.07    -- ATLAS -- 2016hnkpaper
+57699.3563	17.91	0.13    -- ATLAS -- 2016hnkpaper
+57699.37419	18.08	0.1    -- ATLAS -- 2016hnkpaper
+57699.39473	17.92	0.09    -- ATLAS -- 2016hnkpaper
+57699.40852	17.79	0.08    -- ATLAS -- 2016hnkpaper
+57699.42257	17.9	0.12    -- ATLAS -- 2016hnkpaper
+57716.40264	18.48	0.13    -- ATLAS -- 2016hnkpaper
+57716.41793	18.95	0.21    -- ATLAS -- 2016hnkpaper
+57716.43329	18.89	0.23    -- ATLAS -- 2016hnkpaper
+57716.44926	18.42	0.4    -- ATLAS -- 2016hnkpaper
+57716.46525	19.03	0.71    -- ATLAS -- 2016hnkpaper
+57744.33568	19.81	0.38    -- ATLAS -- 2016hnkpaper
+57744.34895	20.8	0.7    -- ATLAS -- 2016hnkpaper
+57744.38807	19.46	0.29    -- ATLAS -- 2016hnkpaper
+57756.33664	20.39	0.5    -- ATLAS -- 2016hnkpaper
+57756.34697	20.57	0.59    -- ATLAS -- 2016hnkpaper
+57780.27214	20.23	0.47    -- ATLAS -- 2016hnkpaper
+57780.28594	20.71	0.71    -- ATLAS -- 2016hnkpaper
+57780.31807	20.52	0.63    -- ATLAS -- 2016hnkpaper
+57784.30955	20.16	0.52    -- ATLAS -- 2016hnkpaper

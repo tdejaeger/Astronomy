@@ -1,0 +1,33 @@
+SN: sn2016hnk
+Filter: o
+Npoints:            30
+MJD       Mag    DMag  magsys  Telescope  Detector   Source
+57643.60394	19.2	0.41   -- ATLAS -- 2016hnkpaper
+57643.61772	19.53	0.39   -- ATLAS -- 2016hnkpaper
+57643.63387	19.71	0.43   -- ATLAS -- 2016hnkpaper
+57671.53087	20.18	0.56   -- ATLAS -- 2016hnkpaper
+57671.54564	19.09	0.26   -- ATLAS -- 2016hnkpaper
+57671.56044	20.5	0.7   -- ATLAS -- 2016hnkpaper
+57680.49224	18.74	0.29   -- ATLAS -- 2016hnkpaper
+57680.50732	19.06	0.41   -- ATLAS -- 2016hnkpaper
+57680.52681	18.67	0.31   -- ATLAS -- 2016hnkpaper
+57680.53327	18.37	0.24   -- ATLAS -- 2016hnkpaper
+57680.55188	19.32	0.49   -- ATLAS -- 2016hnkpaper
+57700.43333	17.8	0.14   -- ATLAS -- 2016hnkpaper
+57700.46271	17.53	0.09   -- ATLAS -- 2016hnkpaper
+57700.47701	17.45	0.08   -- ATLAS -- 2016hnkpaper
+57700.49764	17.45	0.1   -- ATLAS -- 2016hnkpaper
+57704.38748	17.49	0.16   -- ATLAS -- 2016hnkpaper
+57704.40604	17.59	0.18   -- ATLAS -- 2016hnkpaper
+57704.41579	18.06	0.27   -- ATLAS -- 2016hnkpaper
+57704.43695	17.76	0.21   -- ATLAS -- 2016hnkpaper
+57704.4432	18.04	0.28   -- ATLAS -- 2016hnkpaper
+57712.44365	17.73	0.15   -- ATLAS -- 2016hnkpaper
+57736.35164	18.17	0.25   -- ATLAS -- 2016hnkpaper
+57736.36424	18.88	0.42   -- ATLAS -- 2016hnkpaper
+57736.3768	19.27	0.57   -- ATLAS -- 2016hnkpaper
+57736.38939	18.39	0.34   -- ATLAS -- 2016hnkpaper
+57743.34375	19.61	0.4   -- ATLAS -- 2016hnkpaper
+57743.35669	18.96	0.23   -- ATLAS -- 2016hnkpaper
+57743.36908	19.14	0.27   -- ATLAS -- 2016hnkpaper
+57743.38202	18.73	0.2   -- ATLAS -- 2016hnkpaper
