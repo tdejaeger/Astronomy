@@ -191,7 +191,6 @@ def Cardelli_coeff(lamb,Rv):
 	nuv2s = (5.9 <= x) & (x <= 8)
 	fuvs = (8 <= x) & (x <= 10)
 
-	#TODO:pre-compute polys
 
 	#CCM Infrared
 	a[irs]=.574*x[irs]**1.61
