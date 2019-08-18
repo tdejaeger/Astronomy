@@ -5,7 +5,7 @@ mostly written by me.
 
 ## Hubble constant  
 
-In the folder Hubble constant, you can find my solution to the problem proposed by **Prof. Dan Weiz.** in this lecture **Ay128: Undergraduate Data Science Lab** at Berkeley.  Here I will show how to measure the Hubble-Lemaitre constant, by building a hierarchical model for the distance ladder and ultimately using SNe Ia as standard candles.  
+In the folder Hubble constant, you can find my solution to the problem proposed by **Prof. Dan Weiz.** during his **Ay128: Undergraduate Data Science Lab** lecture at Berkeley. Here I will show how to measure the Hubble-Lemaitre constant, by building a hierarchical model for the distance ladder and ultimately using SNe Ia as standard candles.  
 
 
 **Technical skills**: 
