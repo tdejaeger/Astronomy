@@ -9,8 +9,8 @@ mostly written by me.
 
 + Spectroscopy: Blackbody fitting, continuum fitting, Halpha Gaussian decomposition  
 + Photometry: Light curve fitting (slope), Light curve regression using Gaussian Process, maximum fitting   
-+ Extinction: Cardelli coefficient, spectrum deredenning, host galaxy extinction (Balmer)  
-+ Others: Fate to MJD, extract SN information from webpages  
++ Extinction: Cardelli's coefficients, spectrum deredenning, host galaxy extinction (Balmer decrement)  
++ Others: Date to MJD, extract SN information from webpages  
 
 **1.2) LSST_sim**
 + Simulation to estimate the distribution in redshift of Type II supernovae that LSST will discover assuming a limiting magnitude  
