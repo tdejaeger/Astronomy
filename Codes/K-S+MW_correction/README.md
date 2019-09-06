@@ -17,21 +17,21 @@ The K-correction first introduced by Hubble (1936) allows us to correct the obse
 will be observed on the Earth in the R band. The more distant is the object the more important this effect will be.
 
 **1.3) S-correction**
-To combine SNe from different samples, we need to put all the data in the same standard system in order to minimize systematic effects (S-correction; Stritzinger et al. 2002).
+To combine SNe from different samples, we need to put all the data in the same standard system in order to minimise systematic effects (S-correction; Stritzinger et al. 2002).
 
 **1.4) Host-galaxy correction**
 To date, no accurate methods are available to calculate the extinction from the host-galaxy dust. For this purpose in this code we did not correct for this.
 
 ## 2) Codes  
 
-This code is useful to transform **BVRI** photometric data obtained with Kait2,Kait3,Kait4,Nickel1,Nickel2 filters to the Carnegie Supernova Project (CSP) photometric systeme **BVri**. We use only 4 SNe for which we have CSP and KAIT data.   
+This code is useful to transform **BVRI** photometric data obtained with Kait2,Kait3,Kait4,Nickel1,Nickel2 filters to the Carnegie Supernova Project (CSP) photometric system **BVri**. We use only 4 SNe for which we have CSP and KAIT data.   
 
 **2.1) Folders**  
 + AKS_mag: The photometry obtained after K-S- MW correction. If everything works well, this photometry should be very similar to the photometry obtained using CSP  
 
 + CSP_photo: CSP photometry of 4 SNe, after K and MW correction. The photometry were calculted by my self, and I put directly the result there. You can not obtain using the codes.  
 
-+ Figures: 5 plots: A comparaison of the different filters between CSP and KAIT/Nickel. The main difference is between I (KAIT) and i (CSP)   
++ Figures: 5 plots: A comparison of the different filters between CSP and KAIT/Nickel. The main difference is between I (KAIT) and i (CSP)   
 
 + Models: To apply the AKS, you need a spectral energy distribution (SED). As SED we take the SN models obtained by Dessart al. 2013.  
 
@@ -45,7 +45,14 @@ You need to run KAIT_AKS.py.
 
 + Get the observed photometry of your object: MJD,mags,emags,tel
 
-+ Get the transmission function of all the filters (CSP and KAIT). You need to know the ZP of each band and photometric system to convert magnitude into flux:    mag = -2.5log<sub>10</sub>flux + ZP
++ Get the transmission function of all the filters (CSP and KAIT). You need to know the ZP of each band and photometric system to convert magnitude into flux:    mag = -2.5*log<sub>10</sub>(flux) + ZP
+
++ At each photometric epoch you will get the theoretical model with the closest epoch. Then you will warp/mangle the model to match the observed photometry. For this purpose, from the spectrum (in the observed frame) you calculate the synthetic magnitude using the KAIT filters:  
+
+\begin{equation}
+m<sub>syn</sub>=-2.5*log<sub>10</sub>(1.0/(hc)*integrate(SED(&lambda;)*S<sub>&lambda;</sub>(&lambda;)*&lambda;)+ZP
+\end{equation}
+
 
 
 
