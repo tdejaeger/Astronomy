@@ -50,7 +50,7 @@ You need to run KAIT_AKS.py.
 + At each photometric epoch you will get the theoretical model with the closest epoch. Then you will warp/mangle the model to match the observed photometry. For this purpose, from the spectrum (in the observed frame) you calculate the synthetic magnitude using the KAIT filters:  
 
 \begin{equation}
-m<sub>syn</sub>=-2.5*log<sub>10</sub>(frac{1}{hc}*integrate(SED(&lambda;)*S<sub>&lambda;</sub>*&lambda;d&lambda;)+ZP
+m<sub>syn</sub>=-2.5*log<sub>10</sub>(\frac{1}{hc}*integrate(SED(&lambda;)*S<sub>&lambda;</sub>*&lambda;d&lambda;)+ZP
 \end{equation}
 
 
