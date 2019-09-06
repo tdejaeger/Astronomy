@@ -37,4 +37,15 @@ This code is useful to transform **BVRI** photometric data obtained with Kait2,K
 
 + Nat_KAIT: Kait/Nickel magnitudes in the natural system for 4 SNe. These are the raw data we want to transform to the CSP system. As you can see in the folder Figures, these magnitudes differ from those of CSP and therefore we can not compare both magnitude.  
 
+**2.2) Method**  
+
+You need to run KAIT_AKS.py.  
+
++ Get the general SN info: explosion date, Milky Way extinction, redshift. This should be written by hand in a file called: Infos_SNe_kait.txt
+
++ Get the observed photometry of your object: MJD,mags,emags,tel
+
++ Get the transmission function of all the filters (CSP and KAIT). You need to know the ZP of each band and photometric system to convert magnitude into flux:    mag = -2.5log<sub>10</sub>flux + ZP
+
+
 
