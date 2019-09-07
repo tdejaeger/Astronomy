@@ -237,8 +237,8 @@ class SN(object):
 		return dict_filter,bands_tot
 
 
-	def mangling(spec_date,object_name):
-		wl_spec,fl_spec,mjd_spec=SN.get_spec(spec_date)[0:3]
+	def mangling(spec,object_name):
+		wl_spec,fl_spec,mjd_spec=SN.get_spec(spec)[0:3]
 		MJD,mags,emags,bands,sn_name=SN.get_sn(object_name)
 		dict_filter=SN.get_filter()[0]
 		#Filter available, which filters are totally inside the spectrum range and for which we have photometry
@@ -277,7 +277,7 @@ class SN(object):
 				l_eff_X[i]=dict_filter[filt][1]
 
 			#sort by wavelength
-			x_mang,y_mang,filter_available=zip(*sorted(zip(l_eff_X,f_filter,filter_available)))
+			x_mang,y_mang,filter_available,mag_tot_obs=zip(*sorted(zip(l_eff_X,f_filter,filter_available,mag_tot_obs)))
 			#If you use different photometric system with similar filter, you need to remove some points
 			# 500 Ang min
 			ind_good=[ i for i in np.arange(0,np.size(x_mang)-1,1) if x_mang[i+1]-x_mang[i]>500]
