@@ -53,12 +53,12 @@ You need to run KAIT_AKS.py.
 m<sub>syn</sub>=-2.5*log<sub>10</sub>(\frac{1}{hc}*integrate(SED(&lambda;)*S<sub>&lambda;</sub>*&lambda;d&lambda;)+ZP
 \end{equation}
 
-                            /                                           
+                                        
 m =  -2.5*log<sub>10</sub>  |   SED(&lambda;)*S<sub>&lambda;</sub>*&lambda;d&lambda;)+ZP
-                            /                                     
+                                                       
 
 
-$$m =  -2.5*log<sub>10</sub> \int SED(&lambda;)*S<sub>&lambda;</sub>*&lambda;d&lambda;) +ZP $$
+m =  -2.5*log<sub>10</sub> $\int$ SED(&lambda;)*S<sub>&lambda;</sub>*&lambda;d&lambda;) +ZP 
 
 
 
