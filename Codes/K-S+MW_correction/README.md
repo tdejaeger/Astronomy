@@ -41,17 +41,43 @@ This code is useful to transform **BVRI** photometric data obtained with Kait2,K
 
 You need to run KAIT_AKS.py.  
 
+**2.2.1) Get general data**  
+
 + Get the general SN info: explosion date, Milky Way extinction, redshift. This should be written by hand in a file called: Infos_SNe_kait.txt
 
 + Get the observed photometry of your object: MJD,mags,emags,tel
 
 + Get the transmission function of all the filters (CSP and KAIT). You need to know the ZP of each band and photometric system to convert magnitude into flux:    mag = -2.5*log<sub>10</sub>(flux) + ZP
 
+**2.2.2) Mangling**  
+
+Mangling/warping: The AKS correction depends on anything that could affect the SED continuum such as for example the host or the Milky Way extinctions. For this reason, the continuum needs to be adjusted to have the same colours as the SN
+(Hsiao et al., 2007). This step is called Colour-match/Mangling/Warping and it is described below.
+
 + At each photometric epoch you will get the theoretical model with the closest epoch. Then you will warp/mangle the model to match the observed photometry. For this purpose, from the spectrum (in the observed frame) you calculate the synthetic magnitude using the KAIT filters:  
 
 ![](mag.gif)
 
++ Then, you compare the synthetic magnitude to the observed magnitude and obtain a coefficient factor. You will interpolate all the coefficient factors (1 for each band) and extrapolate for the blue and red part of the spectrum  
+You will repeat this technique until obtain a sufficient agreement between the synthetic and the observed magnitudes.
 
+**2.2.3) AKS**  
+
++ Now we are ready to derive the AKS correction. First, we derive the synthetic magnitude using the KAIT filters of the warped spectrum in the observed frame (mKAIT).
+
++ Then, we remove the Milky Way extinction and bring the spectrum to the restframe
+
++ We derive the synthetic magnitude using the CSP filters of the spectrum in the restframe after MW correction and mangling (mCSP)
+
++ Due to the redshift, it is important to know which restframe band (CSP) needs to be used. In this case at low redshift, the V-Kait corresponds to V-CSP. However, be careful because at high redshift, a photon received in X band have been emitted in Y band.
+
++ Finally, AKS=mKAIT- mCSP
+
+**2.2.4 Results**
+
+In the figure below, we clearly that KAIT photometry of SN2007od in the natural Kait/Nickel system (Nat) are different from those obtained using CSP system. However, after corrected the KAIT photometry using our codes, the final KAIT/Nickel photometry corrected by AKS match very well the CSP photometry!!! 
+
+![](Figures/sn2007od.png)
 
 
 
