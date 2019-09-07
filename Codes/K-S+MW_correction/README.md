@@ -58,6 +58,8 @@ m =  -2.5*log<sub>10</sub>  |   SED(&lambda;)*S<sub>&lambda;</sub>*&lambda;d&lam
                             /                                     
 
 
+$$m =  -2.5*log<sub>10</sub> \int SED(&lambda;)*S<sub>&lambda;</sub>*&lambda;d&lambda;) +ZP $$
+
 
 
 
