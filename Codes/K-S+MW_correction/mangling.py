@@ -15,7 +15,7 @@ for ep in range(np.size(epoch)):
 		filter_B=str('B')
 	else:
 		filter_B=str('')
-	if (epoque_photo>=min(MJD['V'])-1) and (epoque_photo<=max(MJD['B'])+1):
+	if (epoque_photo>=min(MJD['V'])-1) and (epoque_photo<=max(MJD['V'])+1):
 		filter_V=str('V')
 	else:
 		filter_V=str('')
